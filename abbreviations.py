@@ -52,7 +52,6 @@ def generate_abbreviations(names):
                 else:
                     # Exclude abbreviation if it can be formed from more than one name
                     if name.strip() != abbreviations[abbreviation]['name']:
-                        # Exclude abbreviation if it can be formed from multiple names
                         del abbreviations[abbreviation]
                         break
 
